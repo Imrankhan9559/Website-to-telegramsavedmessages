@@ -14,11 +14,11 @@ How to Deploy
 <br>
   
 ```sh
-pip install flask telethon python-dotenv
 python -c "import secrets; print(secrets.token_hex(32))"
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 python3 -m venv ./venv
 ./venv/Scripts/activate
+pip install flask telethon python-dotenv
 python app.py
 ```
 </details>
