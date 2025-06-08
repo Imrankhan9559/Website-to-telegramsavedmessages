@@ -12,6 +12,7 @@ How to Deploy
 <details>
   <summary><b>Deploy Locally :</b></summary>
 <br>
+  
 ```sh
 pip install flask telethon python-dotenv
 python -c "import secrets; print(secrets.token_hex(32))"
